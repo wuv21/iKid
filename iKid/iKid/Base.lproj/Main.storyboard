@@ -32,7 +32,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Jbj-c9-4c0" secondAttribute="trailing" constant="-1" id="zjj-pc-JVb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Good" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Good" image="first" selectedImage="first" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -172,17 +172,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfR-r3-wLw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5wW-4b-rIM">
                                 <rect key="frame" x="412" y="513" width="168" height="30"/>
                                 <state key="normal" title="Toggle Question/Answer"/>
                                 <connections>
-                                    <action selector="showAnswer:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Idz-Iw-JFm"/>
+                                    <action selector="showAnswer:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="sv9-Pf-EBs"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="5wW-4b-rIM" secondAttribute="bottom" constant="8" id="4lR-xo-pnY"/>
+                            <constraint firstItem="5wW-4b-rIM" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="6cH-7f-XLr"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pun" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Pun" image="first" selectedImage="first" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -199,26 +203,49 @@
                     <view key="view" contentMode="scaleToFill" id="NFV-4X-z1d">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Dad View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="1LB-MG-pQx">
-                                <rect key="frame" x="223" y="279" width="154" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="1LB-MG-pQx" firstAttribute="centerY" secondItem="NFV-4X-z1d" secondAttribute="centerY" id="RqI-GU-FRj"/>
-                            <constraint firstItem="1LB-MG-pQx" firstAttribute="centerX" secondItem="NFV-4X-z1d" secondAttribute="centerX" id="ugj-9V-8IK"/>
-                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dad" id="uTD-9w-iPS"/>
+                    <tabBarItem key="tabBarItem" title="Dad" image="first" selectedImage="first" id="uTD-9w-iPS"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nO9-PJ-JBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-372" y="764"/>
+            <point key="canvasLocation" x="750" y="1357"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fWQ-SV-TKm">
+            <objects>
+                <viewController id="u8y-ab-phx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ht5-Xh-vnn"/>
+                        <viewControllerLayoutGuide type="bottom" id="YVs-n4-1PR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d2d-7p-xm5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E0q-cl-uiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1415" y="1357"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3dX-cB-Nms">
+            <objects>
+                <viewController id="LjA-wX-eDI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UqG-R1-GzR"/>
+                        <viewControllerLayoutGuide type="bottom" id="4KU-AS-aVF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6WF-bq-P4g">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ggK-bV-ke4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2074" y="1357"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -241,4 +268,7 @@
             <point key="canvasLocation" x="-372" y="-62"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+    </resources>
 </document>
