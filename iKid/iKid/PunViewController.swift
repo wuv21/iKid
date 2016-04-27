@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  PunViewController.swift
 //  iKid
 //
 //  Created by studentuser on 4/27/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class PunViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,8 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func showAnswer(sender: UIButton) {
+    }
 
 }
 

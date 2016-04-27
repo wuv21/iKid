@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		491F023E1CD1383D0096CE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F023D1CD1383D0096CE0D /* AppDelegate.swift */; };
-		491F02401CD1383D0096CE0D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F023F1CD1383D0096CE0D /* FirstViewController.swift */; };
-		491F02421CD1383D0096CE0D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F02411CD1383D0096CE0D /* SecondViewController.swift */; };
+		491F02401CD1383D0096CE0D /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F023F1CD1383D0096CE0D /* GoodViewController.swift */; };
+		491F02421CD1383D0096CE0D /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F02411CD1383D0096CE0D /* PunViewController.swift */; };
 		491F02451CD1383D0096CE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491F02431CD1383D0096CE0D /* Main.storyboard */; };
 		491F02471CD1383D0096CE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491F02461CD1383D0096CE0D /* Assets.xcassets */; };
 		491F024A1CD1383D0096CE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491F02481CD1383D0096CE0D /* LaunchScreen.storyboard */; };
+		9DDBB33C1CD14BA800A51ED1 /* GoodQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB33B1CD14BA800A51ED1 /* GoodQuestionViewController.swift */; };
+		9DDBB33E1CD152EC00A51ED1 /* GoodAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB33D1CD152EC00A51ED1 /* GoodAnswerViewController.swift */; };
+		9DDBB3401CD156C700A51ED1 /* PunQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB33F1CD156C700A51ED1 /* PunQuestionViewController.swift */; };
+		9DDBB3421CD1575600A51ED1 /* PunAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDBB3411CD1575600A51ED1 /* PunAnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		491F023A1CD1383D0096CE0D /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491F023D1CD1383D0096CE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		491F023F1CD1383D0096CE0D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		491F02411CD1383D0096CE0D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		491F023F1CD1383D0096CE0D /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		491F02411CD1383D0096CE0D /* PunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
 		491F02441CD1383D0096CE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491F02461CD1383D0096CE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		491F02491CD1383D0096CE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		491F024B1CD1383D0096CE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DDBB33B1CD14BA800A51ED1 /* GoodQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodQuestionViewController.swift; sourceTree = "<group>"; };
+		9DDBB33D1CD152EC00A51ED1 /* GoodAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodAnswerViewController.swift; sourceTree = "<group>"; };
+		9DDBB33F1CD156C700A51ED1 /* PunQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunQuestionViewController.swift; sourceTree = "<group>"; };
+		9DDBB3411CD1575600A51ED1 /* PunAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunAnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				491F023D1CD1383D0096CE0D /* AppDelegate.swift */,
-				491F023F1CD1383D0096CE0D /* FirstViewController.swift */,
-				491F02411CD1383D0096CE0D /* SecondViewController.swift */,
+				491F023F1CD1383D0096CE0D /* GoodViewController.swift */,
+				9DDBB33B1CD14BA800A51ED1 /* GoodQuestionViewController.swift */,
+				9DDBB33D1CD152EC00A51ED1 /* GoodAnswerViewController.swift */,
+				491F02411CD1383D0096CE0D /* PunViewController.swift */,
+				9DDBB33F1CD156C700A51ED1 /* PunQuestionViewController.swift */,
+				9DDBB3411CD1575600A51ED1 /* PunAnswerViewController.swift */,
 				491F02431CD1383D0096CE0D /* Main.storyboard */,
 				491F02461CD1383D0096CE0D /* Assets.xcassets */,
 				491F02481CD1383D0096CE0D /* LaunchScreen.storyboard */,
@@ -139,9 +151,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				491F02421CD1383D0096CE0D /* SecondViewController.swift in Sources */,
+				491F02421CD1383D0096CE0D /* PunViewController.swift in Sources */,
+				9DDBB33E1CD152EC00A51ED1 /* GoodAnswerViewController.swift in Sources */,
+				9DDBB3401CD156C700A51ED1 /* PunQuestionViewController.swift in Sources */,
 				491F023E1CD1383D0096CE0D /* AppDelegate.swift in Sources */,
-				491F02401CD1383D0096CE0D /* FirstViewController.swift in Sources */,
+				9DDBB33C1CD14BA800A51ED1 /* GoodQuestionViewController.swift in Sources */,
+				9DDBB3421CD1575600A51ED1 /* PunAnswerViewController.swift in Sources */,
+				491F02401CD1383D0096CE0D /* GoodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +307,7 @@
 				491F02501CD1383D0096CE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
