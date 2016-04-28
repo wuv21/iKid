@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -50,8 +51,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Question" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OS7-IU-AEn">
-                                <rect key="frame" x="243" y="289" width="115" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Why are most of the Seven Dwarfs depressed?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OS7-IU-AEn">
+                                <rect key="frame" x="201" y="280" width="199" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -82,8 +83,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pun Question" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAc-wn-Ert">
-                                <rect key="frame" x="249" y="289" width="103" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What did the SQL Query say when he went into a bar?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAc-wn-Ert">
+                                <rect key="frame" x="192" y="280" width="217" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -112,8 +113,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pun Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQl-sc-b8h">
-                                <rect key="frame" x="255" y="289" width="91" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="He'll walk up to two tables and ask &quot;Can I join you?&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQl-sc-b8h">
+                                <rect key="frame" x="201" y="280" width="199" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -142,8 +143,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good Answer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFf-q2-SJM">
-                                <rect key="frame" x="249" y="289" width="103" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Because of the 7 of them, 6 aren't Happy" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFf-q2-SJM">
+                                <rect key="frame" x="202" y="280" width="197" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -195,7 +196,7 @@
         <!--Dad-->
         <scene sceneID="hmL-gP-C90">
             <objects>
-                <viewController id="8eT-ys-fUs" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Dad" id="8eT-ys-fUs" customClass="DadViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qRn-jL-MmU"/>
                         <viewControllerLayoutGuide type="bottom" id="AiX-iA-BV9"/>
@@ -203,7 +204,20 @@
                     <view key="view" contentMode="scaleToFill" id="NFV-4X-z1d">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taU-JP-vD6">
+                                <rect key="frame" x="412" y="513" width="168" height="30"/>
+                                <state key="normal" title="Toggle Question/Answer"/>
+                                <connections>
+                                    <action selector="showAnswer:" destination="8eT-ys-fUs" eventType="touchUpInside" id="XQh-Wd-F8M"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AiX-iA-BV9" firstAttribute="top" secondItem="taU-JP-vD6" secondAttribute="bottom" constant="8" id="HxI-30-iIC"/>
+                            <constraint firstItem="taU-JP-vD6" firstAttribute="trailing" secondItem="NFV-4X-z1d" secondAttribute="trailingMargin" id="qaT-dl-RhR"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dad" image="first" selectedImage="first" id="uTD-9w-iPS"/>
                 </viewController>
@@ -211,10 +225,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="1357"/>
         </scene>
-        <!--View Controller-->
+        <!--Dad Question View Controller-->
         <scene sceneID="fWQ-SV-TKm">
             <objects>
-                <viewController id="u8y-ab-phx" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DadQuestion" id="u8y-ab-phx" customClass="DadQuestionViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ht5-Xh-vnn"/>
                         <viewControllerLayoutGuide type="bottom" id="YVs-n4-1PR"/>
@@ -222,17 +236,29 @@
                     <view key="view" contentMode="scaleToFill" id="d2d-7p-xm5">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you call an alligator in a vest?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCU-CX-rgP">
+                                <rect key="frame" x="225" y="280" width="150" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SCU-CX-rgP" firstAttribute="centerX" secondItem="d2d-7p-xm5" secondAttribute="centerX" id="JmH-Hg-Yaj"/>
+                            <constraint firstItem="SCU-CX-rgP" firstAttribute="centerY" secondItem="d2d-7p-xm5" secondAttribute="centerY" id="lam-15-KyO"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E0q-cl-uiW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1415" y="1357"/>
         </scene>
-        <!--View Controller-->
+        <!--Dad Answer View Controller-->
         <scene sceneID="3dX-cB-Nms">
             <objects>
-                <viewController id="LjA-wX-eDI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DadAnswer" id="LjA-wX-eDI" customClass="DadAnswerViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UqG-R1-GzR"/>
                         <viewControllerLayoutGuide type="bottom" id="4KU-AS-aVF"/>
@@ -240,7 +266,19 @@
                     <view key="view" contentMode="scaleToFill" id="6WF-bq-P4g">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="alligator.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9TH-wW-oBE">
+                                <rect key="frame" x="198" y="180" width="205" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="9TH-wW-oBE" secondAttribute="height" multiplier="41:48" id="Fe8-oJ-O7x"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9TH-wW-oBE" firstAttribute="centerY" secondItem="6WF-bq-P4g" secondAttribute="centerY" id="KLk-YP-UJz"/>
+                            <constraint firstItem="9TH-wW-oBE" firstAttribute="centerX" secondItem="6WF-bq-P4g" secondAttribute="centerX" id="rtS-3A-gIj"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggK-bV-ke4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -269,6 +307,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="alligator.jpg" width="236" height="270"/>
         <image name="first" width="30" height="30"/>
     </resources>
 </document>

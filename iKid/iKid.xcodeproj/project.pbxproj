@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4914D8891CD1C17D0096F589 /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D8881CD1C17D0096F589 /* DadViewController.swift */; };
+		4914D88B1CD1C1A80096F589 /* DadQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D88A1CD1C1A80096F589 /* DadQuestionViewController.swift */; };
+		4914D88D1CD1C1BF0096F589 /* DadAnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914D88C1CD1C1BF0096F589 /* DadAnswerViewController.swift */; };
+		4914D88F1CD1C6CD0096F589 /* alligator.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4914D88E1CD1C6CD0096F589 /* alligator.jpg */; };
 		491F023E1CD1383D0096CE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F023D1CD1383D0096CE0D /* AppDelegate.swift */; };
 		491F02401CD1383D0096CE0D /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F023F1CD1383D0096CE0D /* GoodViewController.swift */; };
 		491F02421CD1383D0096CE0D /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491F02411CD1383D0096CE0D /* PunViewController.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4914D8881CD1C17D0096F589 /* DadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		4914D88A1CD1C1A80096F589 /* DadQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadQuestionViewController.swift; sourceTree = "<group>"; };
+		4914D88C1CD1C1BF0096F589 /* DadAnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadAnswerViewController.swift; sourceTree = "<group>"; };
+		4914D88E1CD1C6CD0096F589 /* alligator.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alligator.jpg; path = ../../../../../Downloads/alligator.jpg; sourceTree = "<group>"; };
 		491F023A1CD1383D0096CE0D /* iKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491F023D1CD1383D0096CE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		491F023F1CD1383D0096CE0D /* GoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +79,11 @@
 				491F02411CD1383D0096CE0D /* PunViewController.swift */,
 				9DDBB33F1CD156C700A51ED1 /* PunQuestionViewController.swift */,
 				9DDBB3411CD1575600A51ED1 /* PunAnswerViewController.swift */,
+				4914D8881CD1C17D0096F589 /* DadViewController.swift */,
+				4914D88A1CD1C1A80096F589 /* DadQuestionViewController.swift */,
+				4914D88C1CD1C1BF0096F589 /* DadAnswerViewController.swift */,
 				491F02431CD1383D0096CE0D /* Main.storyboard */,
+				4914D88E1CD1C6CD0096F589 /* alligator.jpg */,
 				491F02461CD1383D0096CE0D /* Assets.xcassets */,
 				491F02481CD1383D0096CE0D /* LaunchScreen.storyboard */,
 				491F024B1CD1383D0096CE0D /* Info.plist */,
@@ -141,6 +153,7 @@
 				491F024A1CD1383D0096CE0D /* LaunchScreen.storyboard in Resources */,
 				491F02471CD1383D0096CE0D /* Assets.xcassets in Resources */,
 				491F02451CD1383D0096CE0D /* Main.storyboard in Resources */,
+				4914D88F1CD1C6CD0096F589 /* alligator.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +166,10 @@
 			files = (
 				491F02421CD1383D0096CE0D /* PunViewController.swift in Sources */,
 				9DDBB33E1CD152EC00A51ED1 /* GoodAnswerViewController.swift in Sources */,
+				4914D8891CD1C17D0096F589 /* DadViewController.swift in Sources */,
 				9DDBB3401CD156C700A51ED1 /* PunQuestionViewController.swift in Sources */,
+				4914D88D1CD1C1BF0096F589 /* DadAnswerViewController.swift in Sources */,
+				4914D88B1CD1C1A80096F589 /* DadQuestionViewController.swift in Sources */,
 				491F023E1CD1383D0096CE0D /* AppDelegate.swift in Sources */,
 				9DDBB33C1CD14BA800A51ED1 /* GoodQuestionViewController.swift in Sources */,
 				9DDBB3421CD1575600A51ED1 /* PunAnswerViewController.swift in Sources */,
